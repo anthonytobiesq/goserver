@@ -1,0 +1,70 @@
+# =========================
+# Go
+# =========================
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+goserver
+
+# Build output
+/bin/
+/dist/
+
+# Test binaries
+*.test
+
+# Coverage reports
+*.out
+
+# =========================
+# Go modules
+# =========================
+# (keep go.sum and go.mod committed)
+vendor/
+
+# =========================
+# Docker
+# =========================
+# Docker local state (optional)
+.docker/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# IDEs / Editors
+# =========================
+# GoLand / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+tmp/
+temp/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Boot.dev / misc
+# =========================
+bootdev-debug.txt
+
+=====================
+# Python virtual environment
+.venv/
